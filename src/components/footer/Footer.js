@@ -66,7 +66,6 @@ const Footer = (props) => {
                             <div className="widget link-widget">
                                 <ul className="nav navbar-nav mb-2 mb-lg-0">
                                     <li><AnchorLink href='#career'>Career</AnchorLink></li>
-                                    <li><AnchorLink href='#photos'>Snapshots</AnchorLink></li>
                                     <li><AnchorLink href='#testimonials'>Testimonials</AnchorLink></li>
                                     <li><ContactLinkWithSubject /></li>
                                 </ul>
