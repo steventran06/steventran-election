@@ -10,13 +10,15 @@ import YouTubeEmbed from '../../components/youtube/YouTubeEmbed';
 import InstagramSection from '../../components/InstagramSection/InstagramSection';
 import Footer from '../../components/footer/Footer';
 import Scrollbar from '../../components/scrollbar/scrollbar';
-import abimg from '../../images/about.png'
-import Logo from '../../images/stevenlogo.png'
+import abimg from '../../images/about.png';
+import Logo from '../../images/stevenlogo.png';
+import GiftModal from '../../components/modal/modal';
 
 const HomePage =() => {
     return(
         <Fragment>
             <Navbar hclass={'wpo-site-header-s1'} topbarNone={'topbar-none'} Logo={Logo}/>
+            <GiftModal />
             <Hero/>
             <Features/>
             <YouTubeEmbed videoId={`B3xfyTV75Gg`}/>
