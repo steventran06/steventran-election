@@ -3,7 +3,7 @@ import sign from '../../images/signature.png'
 
 const About = (props) => {
     return (
-        <section id="about" className={`wpo-about-section section-padding ${props.abClass}`}>
+        <section id="about" className="wpo-about-section">
             <div className="container">
                 <div className="wpo-about-wrap">
                     <div className="row align-items-center">
@@ -33,16 +33,18 @@ const About = (props) => {
                             <div className="wpo-about-text">
                                 <div className="wpo-section-title">
                                     <span>About Steven Tran</span>
-                                    <h2>We Can Work Together For Create a Better Future.</h2>
+                                    <h2>Where Creativity Meets Leadership</h2>
                                 </div>
-                                <p>I’m Steven Tran — a realtor, former software engineer, and someone who has always believed in building connections that matter. My family immigrated to the United States seeking opportunity, and I grew up watching them work tirelessly to create a better life. Their journey taught me perseverance, gratitude, and the importance of opening doors for others, just as others once opened doors for us.</p>
-                                <p>I’ve been honored to serve my community and industry in many ways: as Local and State Director for Oregon Realtors, a member of the Diversity Key Committee, and as President of the AREAA Portland chapter.</p>
-                                <p>As part of the AREAA Portland family, I’m proud that we set an example as a model chapter — fully engaged at national events, from the talent show to the Policy Summit, and always celebrating our shared mission together. My background in tech taught me how to think strategically, solve problems, and innovate, and I bring that same mindset into real estate and leadership.</p>
-                                <p>I’m deeply committed to listening, understanding challenges, and taking action to improve the experience for everyone I serve. Whether it’s through local association work, state-level advocacy, or building relationships nationwide, I believe we can make our community stronger — together.</p>
-                                <div className="quote">
-                                    <p>"Leadership starts with listening, grows through action, and thrives in community."</p>
-                                </div>
+                                <p>I’m Steven Tran — an Oregon & Washington real estate broker with Keller Williams, former engineer, and community leader passionate about helping people and organizations grow. Over 15 years, I’ve worked across startups, real estate, and nonprofit leadership, building profitable businesses, leading award-winning teams, and creating innovative solutions that make a meaningful impact.</p>
+                                <p>Before real estate, I worked as an engineer and later as a fintech founder, building and scaling technology platforms from the ground up. That experience taught me how to think strategically, solve complex problems, and harness creativity to achieve big goals — skills I bring into every role I take on.</p>
+                                <p>Whether it’s serving clients, growing a team, or leading a nonprofit, my mission is simple: create opportunities, strengthen communities, and help others succeed.</p>
                                 <div className="wpo-about-left-info">
+                                    <div className="wpo-about-left-inner">
+                                        <div className="wpo-about-left-text">
+                                            <h5>Steven Tran</h5>
+                                            <span>Oregon & Washington Real Estate Broker</span>
+                                        </div>
+                                    </div>
                                     <div className="signature">
                                         <img src={sign} alt="" />
                                     </div>

@@ -67,7 +67,6 @@ const Testimonial = (props) => {
         autoplaySpeed: 8000,
     };
 
-
     return (
         <section id="testimonials" className={`wpo-testimonial-section  ${props.tmClass}`}>
             <div className="container">

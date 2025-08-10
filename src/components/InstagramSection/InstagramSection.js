@@ -117,7 +117,7 @@ const InstagramSection = () => {
     return (
         <section id="photos" className="wpo-instagram-section">
             <div className="container-fluid">
-                <SectionTitle subTitle={'A Journey of Leadership and Service'} Title={'Celebrating our unity through events, conferences, and policy advocacy.'} />
+                <SectionTitle subTitle={'Snapshots in Time'} Title={'Celebrating our unity through events, conferences, and policy advocacy.'} />
                 <div className="row">
                     <div className="col col-xs-12">
                         <div className="wpo-instagram-container instagram-slider">

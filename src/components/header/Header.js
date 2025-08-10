@@ -40,9 +40,11 @@ const Header = (props) => {
                                     <button className="menu-close"><i className="ti-close"></i></button>
                                     <ul className="nav navbar-nav mb-2 mb-lg-0">
                                         <li><AnchorLink href='#home'>Home</AnchorLink></li>
-                                        <li><AnchorLink href='#about'>About</AnchorLink></li>
                                         <li><AnchorLink href='#vision'>Vision</AnchorLink></li>
-                                        <li><AnchorLink href='#photos'>Photos</AnchorLink></li>
+                                        <li><AnchorLink href='#about'>About</AnchorLink></li>
+                                        <li><AnchorLink href='#journey'>Journey</AnchorLink></li>
+                                        <li><AnchorLink href='#career'>Career</AnchorLink></li>
+                                        <li><AnchorLink href='#photos'>Snapshots</AnchorLink></li>
                                         <li><AnchorLink href='#testimonials'>Testimonials</AnchorLink></li>
                                         <li><ContactLinkWithSubject /></li>
                                     </ul>
