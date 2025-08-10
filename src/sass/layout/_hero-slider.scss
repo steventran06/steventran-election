@@ -536,6 +536,7 @@
 
 	.hero-content {
 		padding-left: 145px;
+		padding-right: 20px;
 		max-width: 740px;
 
 		@include media-query(1600px) {
