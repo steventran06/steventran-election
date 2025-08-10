@@ -1,13 +1,7 @@
 import React from "react";
-import { Link } from 'react-router-dom'
 import hero1 from '../../images/slider/1.png'
 
 const Hero = () => {
-
-    const ClickHandler = () => {
-        window.scrollTo(10, 0);
-    }
-
     return (
         <section id="home" className="static-hero">
             <div className="hero-container">
