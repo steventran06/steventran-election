@@ -18,12 +18,12 @@ const Hero = () => {
                             <div className="clearfix"></div>
                             <div className="politian-pic">
                                 <img src={hero} alt="" />
-                                {/*<div className="politian-shape">
+                                <div className="politian-shape">
                                     <div className="shape-1"></div>
                                     <div className="shape-2"></div>
                                     <div className="shape-3"></div>
                                     <div className="shape-4"></div>
-                                </div>*/}
+                                </div>
                             </div>
                         </div>
                     </div>
