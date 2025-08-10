@@ -34,19 +34,19 @@ const Footer = (props) => {
                                 <div className="social">
                                     <ul>
                                         <li>
-                                            <Link onClick={ClickHandler} to="https://www.facebook.com/stevenanquan/">
+                                            <a onClick={ClickHandler} href="https://www.facebook.com/stevenanquan/" target="_blank">
                                                 <i className="fi flaticon-facebook-app-symbol"></i>
-                                            </Link>
+                                            </a>
                                         </li>
                                         <li>
-                                            <Link onClick={ClickHandler} to="https://www.linkedin.com/in/steventran06/">
+                                            <a onClick={ClickHandler} href="https://www.linkedin.com/in/steventran06/" target="_blank">
                                                 <i className="fi flaticon-linkedin"></i>
-                                            </Link>
+                                            </a>
                                         </li>
                                         <li>
-                                            <Link onClick={ClickHandler} to="https://www.instagram.com/stevenanquan">
+                                            <a onClick={ClickHandler} href="https://www.instagram.com/stevenanquan" target="_blank">
                                                 <i className="fi flaticon-instagram-1"></i>
-                                            </Link>
+                                            </a>
                                         </li>
                                     </ul>
                                 </div>
@@ -54,14 +54,17 @@ const Footer = (props) => {
                         </div>
                         <div className="col col-lg-3 col-md-6 col-12 col-md-6 col-sm-12 col-12">
                             <div className="widget link-widget">
-                                <div className="widget-title">
-                                    <h3>Quick Links</h3>
-                                </div>
                                 <ul className="nav navbar-nav mb-2 mb-lg-0">
                                     <li><AnchorLink href='#home'>Home</AnchorLink></li>
                                     <li><AnchorLink href='#vision'>Vision</AnchorLink></li>
                                     <li><AnchorLink href='#about'>About</AnchorLink></li>
                                     <li><AnchorLink href='#journey'>Journey</AnchorLink></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div className="col col-lg-3 col-md-6 col-12 col-md-6 col-sm-12 col-12">
+                            <div className="widget link-widget">
+                                <ul className="nav navbar-nav mb-2 mb-lg-0">
                                     <li><AnchorLink href='#career'>Career</AnchorLink></li>
                                     <li><AnchorLink href='#photos'>Snapshots</AnchorLink></li>
                                     <li><AnchorLink href='#testimonials'>Testimonials</AnchorLink></li>
