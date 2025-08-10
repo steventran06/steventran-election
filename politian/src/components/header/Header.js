@@ -1,17 +1,22 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { Link } from 'react-router-dom'
 import MobileMenu from '../MobileMenu/MobileMenu'
-
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 const Header = (props) => {
-    const [menuActive, setMenuState] = useState(false);
-    const SubmitHandler = (e) => {
-        e.preventDefault()
-    }
-
     const ClickHandler = () => {
         window.scrollTo(10, 0);
     }
+
+    const ContactLinkWithSubject = () => {
+      const emailAddress = 'steven@diverserg.com';
+      const subjectLine = 'Support for Steven Tran for National President 2028';
+      const mailtoLink = `mailto:${emailAddress}?subject=${encodeURIComponent(subjectLine)}`;
+
+      return (
+        <a href={mailtoLink}>Contact</a>
+      );
+    };
 
     return (
         <header id="header">
@@ -34,20 +39,12 @@ const Header = (props) => {
                                 <div id="navbar" className="collapse navbar-collapse navigation-holder">
                                     <button className="menu-close"><i className="ti-close"></i></button>
                                     <ul className="nav navbar-nav mb-2 mb-lg-0">
-                                        <li className="menu-item-has-children">
-                                            <Link onClick={ClickHandler} to="/">Home</Link>
-                                        </li>
-                                        <li><Link onClick={ClickHandler} to="/about">About us</Link></li>
-                                        <li className="menu-item-has-children">
-                                            <Link onClick={ClickHandler} to="/">Campaign</Link>
-                                        </li>
-                                        <li className="menu-item-has-children">
-                                            <Link onClick={ClickHandler} to="/">Pages</Link>
-                                        </li>
-                                        <li className="menu-item-has-children">
-                                            <Link onClick={ClickHandler} to="/">Blog</Link>
-                                        </li>
-                                        <li><Link onClick={ClickHandler} to="/contact">Contact</Link></li>
+                                        <li><AnchorLink href='#home'>Home</AnchorLink></li>
+                                        <li><AnchorLink href='#about'>About</AnchorLink></li>
+                                        <li><AnchorLink href='#vision'>Vision</AnchorLink></li>
+                                        <li><AnchorLink href='#photos'>Photos</AnchorLink></li>
+                                        <li><AnchorLink href='#testimonials'>Testimonials</AnchorLink></li>
+                                        <li><ContactLinkWithSubject /></li>
                                     </ul>
                                 </div>
                             </div>

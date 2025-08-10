@@ -9,21 +9,21 @@ const Services = [
     },
     {
         Id: '2',
-        sTitle: 'Model Chapters Nationwide',
-        description:'Encourage every chapter to be a model chapter—fully engaged, collaborative, and celebrating AREAA as our family.',
-        icon:'flaticon-location',
-    },
-    {
-        Id: '3',
-        sTitle: 'National Visibility',
-        description:'Highlight the outstanding work local chapters are doing so it gets the recognition it deserves at the national level.',
+        sTitle: 'A Platform That Works For All',
+        description:'I will apply my engineering mindset to enhance our digital platforms, ensuring functionality and consistency across all chapters to better serve our members.',
         icon:'flaticon-team-work',
     },
     {
-        Id: '4',
-        sTitle: ' Stronger Advocacy',
+        Id: '3',
+        sTitle: 'Stronger Advocacy',
         description:'Continue strengthening our policy and advocacy work to ensure AREAA remains a powerful voice for our community.',
         icon:'flaticon-community',
+    },
+    {
+        Id: '4',
+        sTitle: 'Impactful Events & Education',
+        description:'I will ensure we host incredible events, deliver top-notch education, and fundraise for great causes that benefit our entire community.',
+        icon:'flaticon-location',
     },
 ]    
 

@@ -1,16 +1,22 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import Logo from '../../images/stevenlogo.png'
-import Services from '../../api/service';
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 const ClickHandler = () => {
     window.scrollTo(10, 0);
 }
-const SubmitHandler = (e) => {
-    e.preventDefault()
-}
 
 const Footer = (props) => {
+    const ContactLinkWithSubject = () => {
+      const emailAddress = 'steven@diverserg.com';
+      const subjectLine = 'Support for Steven Tran for National President 2028';
+      const mailtoLink = `mailto:${emailAddress}?subject=${encodeURIComponent(subjectLine)}`;
+
+      return (
+        <a href={mailtoLink}>Contact</a>
+      );
+    };
     return (
         <footer className="wpo-site-footer">
             <div className="wpo-upper-footer">
@@ -22,36 +28,24 @@ const Footer = (props) => {
                                     <Link onClick={ClickHandler} className="navbar-brand" to="/index"><img src={Logo} alt="" /></Link>
                                 </div>
                                 <ul className="info">
-                                    <li>Phone: 111-222-333-2155</li>
-                                    <li>Email: contact@mail.com</li>
-                                    <li>Address: 22/1 Melborane city austria,
-                                        human resoerch, Canada</li>
+                                    <li>Phone: (971) 285-2002</li>
+                                    <li>Email: steven@diverserg.com</li>
                                 </ul>
                                 <div className="social">
                                     <ul>
                                         <li>
-                                            <Link onClick={ClickHandler} to="/">
+                                            <Link onClick={ClickHandler} to="https://www.facebook.com/stevenanquan/">
                                                 <i className="fi flaticon-facebook-app-symbol"></i>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link onClick={ClickHandler} to="/">
-                                                <i className="fi flaticon-twitter"></i>
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link onClick={ClickHandler} to="/">
+                                            <Link onClick={ClickHandler} to="https://www.linkedin.com/in/steventran06/">
                                                 <i className="fi flaticon-linkedin"></i>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link onClick={ClickHandler} to="/">
+                                            <Link onClick={ClickHandler} to="https://www.instagram.com/stevenanquan">
                                                 <i className="fi flaticon-instagram-1"></i>
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link onClick={ClickHandler} to="/">
-                                                <i className="fi flaticon-pinterest"></i>
                                             </Link>
                                         </li>
                                     </ul>
@@ -64,41 +58,13 @@ const Footer = (props) => {
                                     <h3>Quick Links</h3>
                                 </div>
                                 <ul>
-                                    <li><Link onClick={ClickHandler} to="/home">Home</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/about">About Us</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/service">Mission & Vision</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/team">Team</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/campaign">Campaign</Link></li>
+                                    <li><AnchorLink href='#home'>Home</AnchorLink></li>
+                                    <li><AnchorLink href='#about'>About</AnchorLink></li>
+                                    <li><AnchorLink href='#vision'>Vision</AnchorLink></li>
+                                    <li><AnchorLink href='#photos'>Photos</AnchorLink></li>
+                                    <li><AnchorLink href='#testimonials'>Testimonials</AnchorLink></li>
+                                    <li><ContactLinkWithSubject /></li>
                                 </ul>
-                            </div>
-                        </div>
-                        <div className="col col-lg-3 col-md-6 col-12 col-md-6 col-sm-12 col-12">
-                            <div className="widget link-widget s2">
-                                <div className="widget-title">
-                                    <h3>Mission & Vision</h3>
-                                </div>
-                                <ul>
-                                    {Services.slice(0, 5).map((service, Sitem) => (
-                                        <li key={Sitem}><Link onClick={ClickHandler} to={`/service-single/${service.slug}`}>{service.sTitle}</Link></li>
-                                    ))}
-                                </ul>
-                            </div>
-                        </div>
-                        <div className="col col-lg-3 col-md-6 col-12 col-md-6 col-sm-12 col-12">
-                            <div className="widget newsletter-widget">
-                                <div className="widget-title">
-                                    <h3>Subscribe Newsletter</h3>
-                                </div>
-                                <p>Get timely updates ! We only send interesting and relevant emails.</p>
-                                <form onSubmit={SubmitHandler}>
-                                    <div className="input-1">
-                                        <input type="email" className="form-control" placeholder="Your Email Address..."
-                                            required="" />
-                                    </div>
-                                    <div className="submit clearfix">
-                                        <button type="submit">Subscribe now</button>
-                                    </div>
-                                </form>
                             </div>
                         </div>
                     </div>
@@ -109,19 +75,8 @@ const Footer = (props) => {
                     <div className="row align-items-center">
                         <div className="col col-lg-6 col-md-12 col-12">
                             <ul>
-                                <li>&copy; 2023 <Link onClick={ClickHandler} to="/">Politian</Link>. All rights reserved.</li>
+                                <li>&copy; 2025 <Link onClick={ClickHandler} to="/">Steven Tran for AREAA National President</Link>. All rights reserved.</li>
                             </ul>
-                        </div>
-                        <div className="col col-lg-6 col-md-12 col-12">
-                            <div className="link">
-                                <ul>
-                                    <li><Link onClick={ClickHandler} to="/privacy">Privace & Policy</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/terms">Terms</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/about">About us</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/faq">FAQ</Link></li>
-                                    <li><Link onClick={ClickHandler} to="/volunteer">Volunteer</Link></li>
-                                </ul>
-                            </div>
                         </div>
                     </div>
                 </div>

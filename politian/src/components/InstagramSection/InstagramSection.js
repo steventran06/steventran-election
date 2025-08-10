@@ -4,30 +4,55 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Link } from 'react-router-dom'
 import SectionTitle from "../SectionTitle/SectionTitle";
-import ins1 from '../../images/instragram/1.jpg'
-import ins2 from '../../images/instragram/2.jpg'
-import ins3 from '../../images/instragram/3.jpg'
-import ins4 from '../../images/instragram/4.jpg'
-import ins5 from '../../images/instragram/5.jpg'
+
+
+import ins1 from '../../images/instragram/feed1.png'
+import ins2 from '../../images/instragram/feed2.png'
+import ins3 from '../../images/instragram/feed3.png'
+import ins4 from '../../images/instragram/feed4.png'
+import ins5 from '../../images/instragram/feed5.png'
+import ins6 from '../../images/instragram/feed6.png'
+import ins7 from '../../images/instragram/feed7.png'
+import ins8 from '../../images/instragram/feed8.png'
+import ins9 from '../../images/instragram/feed9.png'
+import ins10 from '../../images/instragram/feed10.png'
+import ins11 from '../../images/instragram/feed10.png'
 
 const InstagramArray = [
     {
         InsImg: ins1,
     },
     {
+        InsImg: ins4,
+    },
+    {
+        InsImg: ins7,
+    },
+    {
+        InsImg: ins10,
+    },
+    {
         InsImg: ins2,
+    },
+    {
+        InsImg: ins5,
+    },
+    {
+        InsImg: ins8,
+    },
+    {
+        InsImg: ins11,
     },
     {
         InsImg: ins3,
     },
     {
-        InsImg: ins4,
+        InsImg: ins6,
     },
     {
-        InsImg: ins5,
+        InsImg: ins9,
     }
 ]
-
 
 const settings = {
     dots: false,
@@ -90,9 +115,9 @@ const ClickHandler = () => {
 
 const InstagramSection = () => {
     return (
-        <section className="wpo-instagram-section">
+        <section id="photos" className="wpo-instagram-section">
             <div className="container-fluid">
-                <SectionTitle subTitle={'Work'} Title={'Our Instagram Feed'} />
+                <SectionTitle subTitle={'A Journey of Leadership and Service'} Title={'Celebrating our unity through events, conferences, and policy advocacy.'} />
                 <div className="row">
                     <div className="col col-xs-12">
                         <div className="wpo-instagram-container instagram-slider">
