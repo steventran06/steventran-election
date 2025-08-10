@@ -64,7 +64,7 @@ const Testimonial = (props) => {
         slidesToScroll: 1,
         speed: 1000,
         autoplay: true,
-        autoplaySpeed: 5000,
+        autoplaySpeed: 8000,
     };
 
 
