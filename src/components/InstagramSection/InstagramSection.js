@@ -125,9 +125,7 @@ const InstagramSection = () => {
                                 {InstagramArray.map((instagram, ins) => (
                                     <div className="grid" key={ins}>
                                         <div className="wpo-instagram-item">
-                                            <Link onClick={ClickHandler} to="/blog">
-                                                <img src={instagram.InsImg} alt="" className="img img-responsive"/>
-                                            </Link>
+                                            <img src={instagram.InsImg} alt="" className="img img-responsive"/>
                                         </div>
                                     </div>
                                 ))}
