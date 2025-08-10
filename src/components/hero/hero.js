@@ -1,5 +1,5 @@
 import React from "react";
-import hero1 from '../../images/slider/1.png'
+import hero from '../../images/hero/hero.png'
 
 const Hero = () => {
     return (
@@ -8,9 +8,6 @@ const Hero = () => {
                 <div className="hero-inner">
                     <div className="container-fluid">
                         <div className="hero-content">
-                            <div data-swiper-parallax="300" className="slide-title-sub">
-                                <span>Driven to Serve, Ready to Lead</span>
-                            </div>
                             <div data-swiper-parallax="300" className="slide-title">
                                 <h2>Steven Tran</h2>
                             </div>
@@ -20,13 +17,13 @@ const Hero = () => {
                             </div>
                             <div className="clearfix"></div>
                             <div className="politian-pic">
-                                <img src={hero1} alt="" />
-                                <div className="politian-shape">
+                                <img src={hero} alt="" />
+                                {/*<div className="politian-shape">
                                     <div className="shape-1"></div>
                                     <div className="shape-2"></div>
                                     <div className="shape-3"></div>
                                     <div className="shape-4"></div>
-                                </div>
+                                </div>*/}
                             </div>
                         </div>
                     </div>
