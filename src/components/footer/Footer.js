@@ -34,17 +34,17 @@ const Footer = (props) => {
                                 <div className="social">
                                     <ul>
                                         <li>
-                                            <a onClick={ClickHandler} href="https://www.facebook.com/stevenanquan/" target="_blank">
+                                            <a onClick={ClickHandler} href="https://www.facebook.com/stevenanquan/" target="_blank" rel="noreferrer">
                                                 <i className="fi flaticon-facebook-app-symbol"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a onClick={ClickHandler} href="https://www.linkedin.com/in/steventran06/" target="_blank">
+                                            <a onClick={ClickHandler} href="https://www.linkedin.com/in/steventran06/" target="_blank" rel="noreferrer">
                                                 <i className="fi flaticon-linkedin"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a onClick={ClickHandler} href="https://www.instagram.com/stevenanquan" target="_blank">
+                                            <a onClick={ClickHandler} href="https://www.instagram.com/stevenanquan" target="_blank" rel="noreferrer">
                                                 <i className="fi flaticon-instagram-1"></i>
                                             </a>
                                         </li>

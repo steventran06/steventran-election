@@ -12,8 +12,6 @@ import Footer from '../../components/footer/Footer';
 import Scrollbar from '../../components/scrollbar/scrollbar';
 import abimg from '../../images/about.png'
 import Logo from '../../images/stevenlogo.png'
-import hero1 from '../../images/slider/1.png'
-
 
 const HomePage =() => {
     return(
