@@ -2,7 +2,6 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { Link } from 'react-router-dom'
 import SectionTitle from "../SectionTitle/SectionTitle";
 
 
@@ -108,10 +107,6 @@ const settings = {
         }
     ]
 };
-
-const ClickHandler = () => {
-    window.scrollTo(10, 0);
-}
 
 const InstagramSection = () => {
     return (
