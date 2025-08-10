@@ -12,7 +12,7 @@ const Hero = () => {
                                 <h2>Steven Tran</h2>
                             </div>
                             <div data-swiper-parallax="400" className="slide-text">
-                                <p>I'm running for National President of the Asian Real Estate Association of America for 2028.</p>
+                                <p>I'm running for 2028 National President of the Asian Real Estate Association of America.</p>
                                 <p>Turning member concerns into real solutions.</p>
                             </div>
                             <div className="clearfix"></div>
