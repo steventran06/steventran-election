@@ -76,7 +76,7 @@ const Journey = (props) => {
                         <div className="col-lg-6 col-md-12 col-12">
                             <div className="wpo-about-text">
                                 <div className="wpo-section-title">
-                                    <span>My Parents’ Journey</span>
+                                    <span>My Family's Journey</span>
                                 </div>
                                 <p>My parents came to America as refugees, fleeing the Vietnam War and the uncertainty that came with it. They dreamed of a safer, better future — not just for themselves, but for their family. They came here to Portland, Oregon, so they could raise my two sisters and me.</p>
                                 <p>My dad worked long days as a truck driver, while my mom sewed as a seamstress and took janitorial jobs at night. They worked tirelessly, to provide for us and build a stable home. Eventually, they opened their own small business. But after years of hard work, unforeseen challenges forced them to lose it. That loss shook our family deeply.</p>
