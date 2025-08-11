@@ -41,7 +41,7 @@ const testimonial = [
     {
         id: '05',
         tImg: colleen,
-        Des: "Politics is the art of looking for trouble, finding it everywhere, diagnosing it incorrectly and applying the wrong remedies.",
+        Des: "Having seen Steven’s commitment and passion for our local AREAA chapter and our industry, I know he has the leadership, vision, and integrity to serve with excellence at the national level.",
         Title: 'Colleen Gordon',
         Sub: "Operating Principal and Principal Broker at Keller Williams Realty Professionals",
     },
@@ -70,7 +70,7 @@ const Testimonial = (props) => {
     return (
         <section id="testimonials" className={`wpo-testimonial-section  ${props.tmClass}`}>
             <div className="container">
-                <SectionTitle subTitle={'Testimonials'} Title={'Celebrating our unity through events, conferences, and policy advocacy.'} />
+                <SectionTitle subTitle={'Testimonials'} Title={'Trusted by Peers, Valued by Clients.'} />
                 <div className="wpo-testimonial-wrap">
                     <div className="row align-items-center">
                         <div className="col-lg-6 col-12 order-lg-1 order-2">
