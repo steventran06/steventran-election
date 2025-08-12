@@ -20,7 +20,7 @@ const Features = (props) => {
                                         <i className="fi flaticon-telephone"></i>
                                     </div>
                                     <div className="feature-text">
-                                        <h2><Link onClick={ClickHandler} to="/about">Listening First</Link></h2>
+                                        <h2><Link onClick={ClickHandler} to="/">Listening First</Link></h2>
                                     </div>
                                 </div>
                                 <div className="feature-item-hidden">
@@ -28,7 +28,7 @@ const Features = (props) => {
                                         <i className="fi flaticon-telephone"></i>
                                     </div>
                                     <div className="feature-text">
-                                        <h2><Link onClick={ClickHandler} to="/about">Listening First</Link></h2>
+                                        <h2><Link onClick={ClickHandler} to="/">Listening First</Link></h2>
                                         <p>I will reach out to members across the country, hear your concerns, and act on your feedback to make AREAA better for everyone.</p>
                                     </div>
                                 </div>
@@ -41,7 +41,7 @@ const Features = (props) => {
                                         <i className="fi flaticon-team-work"></i>
                                     </div>
                                     <div className="feature-text">
-                                        <h2><Link onClick={ClickHandler} to="/campaign">Platform & Tech</Link></h2>
+                                        <h2><Link onClick={ClickHandler} to="/">Platform & Tech</Link></h2>
                                     </div>
                                 </div>
                                 <div className="feature-item-hidden">
@@ -49,7 +49,7 @@ const Features = (props) => {
                                         <i className="fi flaticon-team-work"></i>
                                     </div>
                                     <div className="feature-text">
-                                        <h2><Link onClick={ClickHandler} to="/campaign">Platform & Tech</Link></h2>
+                                        <h2><Link onClick={ClickHandler} to="/">Platform & Tech</Link></h2>
                                         <p>I will apply my engineering mindset to enhance our digital platforms, ensuring functionality and consistency across all chapters to better serve our members.</p>
                                     </div>
                                 </div>
@@ -62,7 +62,7 @@ const Features = (props) => {
                                         <i className="fi flaticon-community"></i>
                                     </div>
                                     <div className="feature-text">
-                                        <h2><Link onClick={ClickHandler} to="/donate">Stronger Advocacy</Link></h2>
+                                        <h2><Link onClick={ClickHandler} to="/">Stronger Advocacy</Link></h2>
                                     </div>
                                 </div>
                                 <div className="feature-item-hidden">
@@ -70,7 +70,7 @@ const Features = (props) => {
                                         <i className="fi flaticon-community"></i>
                                     </div>
                                     <div className="feature-text">
-                                        <h2><Link onClick={ClickHandler} to="/donate">Stronger Advocacy</Link></h2>
+                                        <h2><Link onClick={ClickHandler} to="/">Stronger Advocacy</Link></h2>
                                         <p>Continue strengthening our policy and advocacy work to ensure AREAA remains a powerful voice for our community.</p>
                                     </div>
                                 </div>
@@ -83,7 +83,7 @@ const Features = (props) => {
                                         <i className="fi flaticon-location"></i>
                                     </div>
                                     <div className="feature-text">
-                                        <h2><Link onClick={ClickHandler} to="/volunteer">Events & Education</Link></h2>
+                                        <h2><Link onClick={ClickHandler} to="/">Events & Education</Link></h2>
                                     </div>
                                 </div>
                                 <div className="feature-item-hidden">
@@ -91,7 +91,7 @@ const Features = (props) => {
                                         <i className="fi flaticon-location"></i>
                                     </div>
                                     <div className="feature-text">
-                                        <h2><Link onClick={ClickHandler} to="/volunteer">Events & Education</Link></h2>
+                                        <h2><Link onClick={ClickHandler} to="/">Events & Education</Link></h2>
                                         <p>I will ensure we host incredible events, deliver top-notch education, and fundraise for great causes that benefit our entire community.</p>
                                     </div>
                                 </div>
