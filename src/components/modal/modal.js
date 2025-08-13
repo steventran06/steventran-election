@@ -60,7 +60,7 @@ const GiftModal = () => {
             allowfullscreen>
           </iframe>
         </div>
-
+        <p>Your support means the world to me. If you enjoy your gift, I’d love for you to share your creation on social media (<a href="http://instagram.com/stevenanquan" target="_blank" rel="noopener noreferrer">@stevenanquan</a>) — tag me so I can celebrate it with you!</p>
         <p>After you watch, feel free to explore my website to learn more about me and my vision for AREAA. And if you have any questions or ideas, I’d be honored to hear from you — call me at <a href="tel:971-285-2002">(971) 285-2002</a> or email <a href="mailto:steven@diverserg.com">steven@diverserg.com</a> anytime.</p>
         <p>Thank you,<br />
         Steven Tran</p>

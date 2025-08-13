@@ -36,7 +36,7 @@ const About = (props) => {
                                     <h2>Where Creativity Meets Leadership</h2>
                                 </div>
                                 <p>I’m Steven Tran — an Oregon & Washington real estate broker with Keller Williams, former engineer, and community leader passionate about helping people and organizations grow. Over 15 years, I’ve worked across startups, real estate, and nonprofit leadership, building profitable businesses, leading award-winning teams, and creating innovative solutions that make a meaningful impact.</p>
-                                <p>Before real estate, I worked as an engineer and later as a fintech founder, building and scaling technology platforms from the ground up. That experience taught me how to think strategically, solve complex problems, and harness creativity to achieve big goals — skills I bring into every role I take on.</p>
+                                <p>Before real estate, I worked as an engineer and later as a tech founder, building and scaling technology platforms from the ground up. That experience taught me how to think strategically, solve complex problems, and harness creativity to achieve big goals — skills I bring into every role I take on.</p>
                                 <p>Whether it’s serving clients, growing a team, or leading a nonprofit, my mission is simple: create opportunities, strengthen communities, and help others succeed.</p>
                                 <div className="wpo-about-left-info">
                                     <div className="wpo-about-left-inner">
